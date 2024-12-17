@@ -16,7 +16,7 @@ jobs:
         release: R2024b  # Specify your MATLAB release here
 
     - name: Run MATLAB Build
-      uses: matlab-actions/run-build@v2
+      uses: matlab-actions/run-build@v2.5.0
 
     - name: Run MATLAB Tests
       uses: matlab-actions/run-tests@v2
