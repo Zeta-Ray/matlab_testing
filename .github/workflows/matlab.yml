@@ -21,7 +21,7 @@ jobs:
     - name: Run MATLAB Tests
       uses: matlab-actions/run-tests@v2
       with:
-        testResultsPath: results  # Specify the path to save test results
+        testResultsPath: tests/results  # Specify the path to save test results
 
     - name: Upload test results
       uses: actions/upload-artifact@v4
